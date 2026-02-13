@@ -7,7 +7,7 @@ let count = 2;
 
 const gifs = [
   "../cat-heart.gif",
-  "../rusure.gif",
+  "../https://knowyourmeme.com/photos/2738959-mr-fresh-side-eye-cat",
   "../3shocked-1.gif",
   "../4.crying.gif",
   "../5.crying.gif",
@@ -23,7 +23,7 @@ gifs.forEach(gifSrc => {
 // changes for when NO button is clicked
 no.addEventListener("click", () => {
   if (count == 2) {
-    gif.src = "../rusure.gif";// gif credit: https://knowyourmeme.com/photos/2738959-mr-fresh-side-eye-cat
+    gif.src = "../https://knowyourmeme.com/photos/2738959-mr-fresh-side-eye-cat";// gif credit: https://knowyourmeme.com/photos/2738959-mr-fresh-side-eye-cat
     text.innerHTML = "You meant to press YES right?🤨";
     yes.style.height = "65%";
     yes.style.width = "60%";
@@ -66,4 +66,5 @@ yes.addEventListener("click", () => {
     vid.style.display = "none";
   }, 9000);
 });
+
 
